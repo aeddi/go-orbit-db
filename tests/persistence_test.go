@@ -17,7 +17,7 @@ import (
 )
 
 func TestPersistence(t *testing.T) {
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*60)
+	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
 	dbPath := "./orbitdb/tests/persistence"
