@@ -20,7 +20,8 @@ require (
 	github.com/prometheus/common v0.4.0
 	github.com/smartystreets/goconvey v0.0.0-20190222223459-a17d461953aa
 	go.uber.org/zap v1.10.0
-	google.golang.org/appengine v1.4.0 // indirect
 )
 
 replace github.com/dgraph-io/badger => github.com/dgraph-io/badger v0.0.0-20190809121831-9d7b751e85c9
+
+replace berty.tech/go-ipfs-log => /Users/guillaume/go/src/berty.tech/go-ipfs-log
